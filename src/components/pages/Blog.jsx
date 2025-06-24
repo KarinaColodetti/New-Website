@@ -8,14 +8,14 @@ import buffalohunting from "../../assets/buffalohunting.png";
 const blogPosts = [
   {
     to: "/blog/post1",
-    img: { dustbowl },
+    img: dustbowl,
     alt: "dust bowl",
     title: "O que aprendemos com o Dust Bowl",
     desc: "",
   },
   {
     to: "/blog/post2",
-    img: { buffalohunting },
+    img: buffalohunting,
     alt: "Blog Post 2",
     title: "When greediness takes over",
     desc: "",

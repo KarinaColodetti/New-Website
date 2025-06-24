@@ -2,7 +2,7 @@ import Header from "../../Header.jsx";
 import Footer from "../../Footer.jsx";
 import dustbowl from "../../assets/bowldust.png";
 import migrantmother from "../../assets/migrant-mother.webp";
-import wheatproduction from "../../assets/migrant-mother.webp";
+import wheatproduction from "../../assets/wheatproduction.jpg";
 import dustcovering from "../../assets/dustcovering.jpg";
 import thegrapesofwrath from "../../assets/thegrapesofwrath.jpg";
 import peoplewithmask from "../../assets/peoplewithmasks.png";
