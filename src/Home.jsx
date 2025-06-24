@@ -1,4 +1,4 @@
-import { karina13 } from "./assets/karina-13.jpg";
+import karina13 from "./assets/karina-13.jpg";
 
 function Home() {
   return (
