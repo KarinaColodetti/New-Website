@@ -1,12 +1,10 @@
+import { karina13 } from "./assets/karina-13.jpg";
+
 function Home() {
   return (
     <main>
       <div className="container">
-        <img
-          id="imagem1"
-          src="/src/assets/karina-13.jpg"
-          alt="professora Karina"
-        />
+        <img id="imagem1" src={karina13} alt="professora Karina" />
         <div className="child">
           <h1>Experiência Cultural</h1>
           <p>
