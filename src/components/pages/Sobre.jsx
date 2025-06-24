@@ -1,7 +1,7 @@
 import Header from "../../Header.jsx";
 import Footer from "../../Footer.jsx";
-import karina1 from "./src/assets/karina-1.jpg";
-import karina4 from "./src/assets/karina-4.jpg";
+import karina1 from "../../assets/karina-1.jpg";
+import karina4 from "../../assets/karina-4.jpg";
 
 function Sobre() {
   return (

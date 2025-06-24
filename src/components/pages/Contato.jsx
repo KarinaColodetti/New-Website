@@ -1,6 +1,6 @@
 import Header from "../../Header.jsx";
 import Footer from "../../Footer.jsx";
-import karina11 from "./src/assets/karina-11.jpg";
+import karina11 from "../../assets/karina-11.jpg";
 
 function Contato() {
   return (

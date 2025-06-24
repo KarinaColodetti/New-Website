@@ -1,7 +1,7 @@
 import Header from "../../Header.jsx";
 import Footer from "../../Footer.jsx";
-import karina3 from "./src/assets/karina-3.jpg";
-import karina6 from "./src/assets/karina-6.jpg";
+import karina3 from "../../assets/karina-3.jpg";
+import karina6 from "../../assets/karina-6.jpg";
 
 function Servicos() {
   return (

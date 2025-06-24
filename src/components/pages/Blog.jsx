@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import Header from "../../Header.jsx";
 import Footer from "../../Footer.jsx";
-import dustbowl from "/src/assets/bowldust.png";
-import buffalohunting from "/src/assets/buffalohunting.png";
+import dustbowl from "../../assets/bowldust.png";
+import buffalohunting from "../../assets/buffalohunting.png";
 
 const blogPosts = [
   {
