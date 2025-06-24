@@ -1,5 +1,11 @@
 import Header from "../../Header.jsx";
 import Footer from "../../Footer.jsx";
+import dustbowl from "/src/assets/bowldust.png";
+import migrantmother from "/src/assets/migrant-mother.webp";
+import wheatproduction from "/src/assets/migrant-mother.webp";
+import dustcovering from "/src/assets/dustcovering.jpg";
+import thegrapesofwrath from "/src/assets/thegrapesofwrath.jpg";
+import peoplewithmask from "/src/assets/peoplewithmasks.png";
 
 function Blogpost1() {
   return (
@@ -7,11 +13,7 @@ function Blogpost1() {
       <div className="container_blogpost1">
         <div className="container_blog_post">
           <div className="container_blog_post_img">
-            <img
-              className="blog_post_img"
-              src="/src/assets/bowldust.png"
-              alt="dust bowl"
-            />
+            <img className="blog_post_img" src={dustbowl} alt="dust bowl" />
           </div>
           <div className="container_blog_post_content">
             <h2>O que aprendemos com o Dust Bowl</h2>
@@ -30,7 +32,7 @@ function Blogpost1() {
               <br />
               <img
                 className="imagesblog1"
-                src="/src/assets/migrant-mother.webp"
+                src={migrantmother}
                 alt="migrant mother"
               />
               O Dust Bowl (ou "Tigela de Poeira") foi o resultado direto de uma
@@ -44,7 +46,7 @@ function Blogpost1() {
               <br />
               <img
                 className="imagesblog1"
-                src="/src/assets/wheatproduction.jpg"
+                src={wheatproduction}
                 alt="dust bowl"
               />
               No entanto, com o colapso da bolsa em 1929 e o início da Grande
@@ -60,11 +62,7 @@ function Blogpost1() {
               descargas de eletricidade estática que causavam curtos-circuitos
               em carros e aparelhos eletrônicos. <br />
               <br />
-              <img
-                className="imagesblog1"
-                src="/src/assets/dustcovering.jpg"
-                alt="dust bowl"
-              />
+              <img className="imagesblog1" src={dustcovering} alt="dust bowl" />
               O Dust Bowl é uma lição dura sobre o que a ganância e o descuido
               ambiental podem causar. Um clássico da literatura que mostra não
               só esse momento histórico, mas também a resiliência e a força de
@@ -76,7 +74,7 @@ function Blogpost1() {
               <br />
               <img
                 className="imagesblog1"
-                src="/src/assets/thegrapesofwrath.jpg"
+                src={thegrapesofwrath}
                 alt="dust bowl"
               />
               Dizem que a história não se repete, mas é cíclica como uma
@@ -89,7 +87,7 @@ function Blogpost1() {
               natureza somos apenas dust in the wind.
               <img
                 className="imagesblog1"
-                src="/src/assets/peoplewithmasks.png"
+                src={peoplewithmask}
                 alt="dust bowl"
               />
             </p>

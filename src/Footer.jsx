@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import logo1 from "./assets/logo.svg";
 
 function Footer() {
   const navigate = useNavigate();
@@ -9,7 +10,7 @@ function Footer() {
           <a href="/">
             <img
               id="logo"
-              src="/src/assets/logo.svg"
+              src={logo1}
               alt="logo Karina Rodrigues Idiomas"
               onClick={() => navigate("/")}
             />

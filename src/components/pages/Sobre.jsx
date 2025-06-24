@@ -1,15 +1,13 @@
 import Header from "../../Header.jsx";
 import Footer from "../../Footer.jsx";
+import karina1 from "./src/assets/karina-1.jpg";
+import karina4 from "./src/assets/karina-4.jpg";
 
 function Sobre() {
   return (
     <>
       <div className="container">
-        <img
-          id="imagem_sobre"
-          src="/src/assets/karina-1.jpg"
-          alt="professora Karina"
-        />
+        <img id="imagem_sobre" src={karina1} alt="professora Karina" />
         <div className="child">
           <h1>Sobre mim</h1>
           <p>
@@ -57,11 +55,7 @@ function Sobre() {
             inglês pela LongLife English e perseguindo certificação CAE C2.
           </p>
         </div>
-        <img
-          id="imagem_sobre"
-          src="/src/assets/karina-4.jpg"
-          alt="professora Karina"
-        />
+        <img id="imagem_sobre" src={karina4} alt="professora Karina" />
       </div>
     </>
   );

@@ -1,15 +1,13 @@
 import Header from "../../Header.jsx";
 import Footer from "../../Footer.jsx";
+import karina3 from "./src/assets/karina-3.jpg";
+import karina6 from "./src/assets/karina-6.jpg";
 
 function Servicos() {
   return (
     <>
       <div className="container">
-        <img
-          id="imagem1"
-          src="/src/assets/karina-3.jpg"
-          alt="professora Karina dando aula"
-        />
+        <img id="imagem1" src={karina3} alt="professora Karina dando aula" />
         <div className="child_servicos1">
           <h1>Cursos de Idiomas</h1>
           <p>
@@ -39,7 +37,7 @@ function Servicos() {
       <div className="container2">
         <img
           id="imagem2"
-          src="/src/assets/karina-6.jpg"
+          src={karina6}
           alt="professora Karina revisando texto"
         />
         <div className="child2">

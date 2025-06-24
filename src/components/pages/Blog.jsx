@@ -2,18 +2,20 @@ import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import Header from "../../Header.jsx";
 import Footer from "../../Footer.jsx";
+import dustbowl from "/src/assets/bowldust.png";
+import buffalohunting from "/src/assets/buffalohunting.png";
 
 const blogPosts = [
   {
     to: "/blog/post1",
-    img: "/src/assets/bowldust.png",
+    img: { dustbowl },
     alt: "dust bowl",
     title: "O que aprendemos com o Dust Bowl",
     desc: "",
   },
   {
     to: "/blog/post2",
-    img: "/src/assets/buffalohunting.png",
+    img: { buffalohunting },
     alt: "Blog Post 2",
     title: "When greediness takes over",
     desc: "",

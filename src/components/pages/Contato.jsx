@@ -1,5 +1,6 @@
 import Header from "../../Header.jsx";
 import Footer from "../../Footer.jsx";
+import karina11 from "./src/assets/karina-11.jpg";
 
 function Contato() {
   return (
@@ -36,7 +37,7 @@ function Contato() {
         </form>
         <img
           id="imagem_contato"
-          src="/src/assets/karina-11.jpg"
+          src={karina11}
           alt="professora Karina lendo em uma cafeteria"
         />
       </div>

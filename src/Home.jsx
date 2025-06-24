@@ -1,4 +1,6 @@
 import karina13 from "./assets/karina-13.jpg";
+import karina2 from "./assets/karina-2.jpg";
+import karina4 from "./assets/karina-4.jpg";
 
 function Home() {
   return (
@@ -28,19 +30,11 @@ function Home() {
             com afeto, reflexão e propósito.
           </p>
         </div>
-        <img
-          id="imagem2"
-          src="/src/assets/karina-2.jpg"
-          alt="professora Karina"
-        />
+        <img id="imagem2" src={karina2} alt="professora Karina" />
       </div>
 
       <div className="container3">
-        <img
-          id="imagem3"
-          src="/src/assets/karina-4.jpg"
-          alt="professora Karina lendo"
-        />
+        <img id="imagem3" src={karina4} alt="professora Karina lendo" />
         <div className="child3">
           <h1 id="titulo3">Olhar Decolonial para o Mundo</h1>
           <p id="p3">
