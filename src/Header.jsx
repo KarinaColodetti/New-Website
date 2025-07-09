@@ -8,6 +8,8 @@ function Header() {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const handleLinkClick = () => setIsMenuOpen(false);
+
   return (
     <header className="container_header">
       <div className="info_header">
@@ -18,19 +20,29 @@ function Header() {
       <nav className={`menu ${isMenuOpen ? "active" : ""}`}>
         <ul>
           <li>
-            <Link to="/">Início</Link>
+            <Link to="/" onClick={handleLinkClick}>
+              Início
+            </Link>
           </li>
           <li>
-            <Link to="/sobre">Sobre</Link>
+            <Link to="/sobre" onClick={handleLinkClick}>
+              Sobre
+            </Link>
           </li>
           <li>
-            <Link to="/servicos">Serviços</Link>
+            <Link to="/servicos" onClick={handleLinkClick}>
+              Serviços
+            </Link>
           </li>
           <li>
-            <Link to="/contato">Contato</Link>
+            <Link to="/contato" onClick={handleLinkClick}>
+              Contato
+            </Link>
           </li>
           <li>
-            <Link to="/blog">Blog</Link>
+            <Link to="/blog" onClick={handleLinkClick}>
+              Blog
+            </Link>
           </li>
         </ul>
       </nav>

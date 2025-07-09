@@ -42,19 +42,19 @@ function Footer() {
           <h3>Menu</h3>
           <ul className="footer_menu">
             <li>
-              <a href="/">Início</a>
+              <Link to="/">Início</Link>
             </li>
             <li>
-              <a href="/sobre">Sobre</a>
+              <Link to="/sobre">Sobre</Link>
             </li>
             <li>
-              <a href="/servicos">Serviços</a>
+              <Link to="/servicos">Serviços</Link>
             </li>
             <li>
-              <a href="/contato">Contato</a>
+              <Link to="/contato">Contato</Link>
             </li>
             <li>
-              <a href="/blog">Blog</a>
+              <Link to="/blog">Blog</Link>
             </li>
           </ul>
         </div>
