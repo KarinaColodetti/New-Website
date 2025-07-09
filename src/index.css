@@ -651,21 +651,30 @@ button:hover {
 
   .child,
   .child2,
-  .child3 {
+  .child3,
+  .child_servicos1 {
     max-width: 100%;
     padding: 1rem 0;
   }
 
   #imagem1,
   #imagem2,
-  #imagem3 {
+  #imagem3,
+  #imagem_sobre {
     max-width: 100%;
     margin: 1rem 0;
   }
 
   .container p,
   .container2 p,
-  .container3 p {
+  .container3 p,
+  .child_servicos1 p,
+  .child2 p {
+    max-width: 100%;
+    padding: 0 1.5rem;
+  }
+
+  .lista_aulas {
     max-width: 100%;
     padding: 0 1.5rem;
   }

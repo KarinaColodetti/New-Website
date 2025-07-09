@@ -7,7 +7,7 @@ function Servicos() {
   return (
     <>
       <div className="container">
-        <img id="imagem1" src={karina3} alt="professora Karina dando aula" />
+        {/* Mobile-first: put text first for better stacking */}
         <div className="child_servicos1">
           <h1>Cursos de Idiomas</h1>
           <p>
@@ -33,13 +33,9 @@ function Servicos() {
             </em>
           </p>
         </div>
+        <img id="imagem1" src={karina3} alt="professora Karina dando aula" />
       </div>
       <div className="container2">
-        <img
-          id="imagem2"
-          src={karina6}
-          alt="professora Karina revisando texto"
-        />
         <div className="child2">
           <h1>Tradução e Revisão de Textos</h1>
           <p>
@@ -56,6 +52,11 @@ function Servicos() {
           </p>
           <p>Entre em contato para mais informações</p>
         </div>
+        <img
+          id="imagem2"
+          src={karina6}
+          alt="professora Karina revisando texto"
+        />
       </div>
     </>
   );
