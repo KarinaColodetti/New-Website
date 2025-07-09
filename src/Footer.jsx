@@ -3,6 +3,12 @@ import logo1 from "./assets/logo.svg";
 
 function Footer() {
   const navigate = useNavigate();
+
+  // Função para rolar ao topo ao clicar em um link do menu
+  const handleMenuLinkClick = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   return (
     <footer id="footer">
       <div className="footer_main">
@@ -42,19 +48,29 @@ function Footer() {
           <h3>Menu</h3>
           <ul className="footer_menu">
             <li>
-              <Link to="/">Início</Link>
+              <Link to="/" onClick={handleMenuLinkClick}>
+                Início
+              </Link>
             </li>
             <li>
-              <Link to="/sobre">Sobre</Link>
+              <Link to="/sobre" onClick={handleMenuLinkClick}>
+                Sobre
+              </Link>
             </li>
             <li>
-              <Link to="/servicos">Serviços</Link>
+              <Link to="/servicos" onClick={handleMenuLinkClick}>
+                Serviços
+              </Link>
             </li>
             <li>
-              <Link to="/contato">Contato</Link>
+              <Link to="/contato" onClick={handleMenuLinkClick}>
+                Contato
+              </Link>
             </li>
             <li>
-              <Link to="/blog">Blog</Link>
+              <Link to="/blog" onClick={handleMenuLinkClick}>
+                Blog
+              </Link>
             </li>
           </ul>
         </div>
